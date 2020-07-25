@@ -1,0 +1,77 @@
+\documentclass[11pt]{article}
+\usepackage{biblatex}
+\usepackage{datetime2}
+\addbibresource{references.bib}
+
+\title{
+%Challenges and the future of open-access PhD theses
+%%Wed  8 Jul 22:50:42 BST 2020
+open-corTeX: A Framework for Open-Accessible Continuous integration for scientific articles
+%Sat 25 Jul 15:21:54 BST 2020
+}
+
+
+\author{Author(s)}
+\date{\DTMNow}
+%(400words)
+
+\begin{document}
+\maketitle
+Nearly a decade ago, December 2011, Roger Peng published an spectrum of reproducibility 
+which depicts a roadmap that went from publication only to full replication as a scientific outcome
+and such spectrum went gradually from the publication with code, to publication with code and data to code, 
+to publication with code, data and software 
+\cite{peng2011}.
+Such spectrum was a cornerstone for 
+%the launch of
+%an engineering-based PhD degree in November 2014
+%that, after a four-year journey 
+%of time-wise and financial-wise challenges,  
+%led to 
+the publication of the first open-accessible 
+and 100\% reproducible engineering-based PhD thesis in August 2019 
+since the establishment of the 
+University of Birmingham in 1900 
+\cite{xochicale2019-github}.
+Nonetheless, there are still many challenges in the existing system 
+of formal scientific communication for open-accessible PhD theses.
+Such challenges were recently broken down 
+by Heise and Pearce 2020
+for aspects of evaluation of scientific work, 
+speed in the communication process,
+respect for the freedom of science and research,
+dissemination and accessibility, digitization,
+possibilities of verifiability of scientific knowledge, quality, 
+and prevention of misuse and scientific misconduct 
+\cite{heise2020}.
+Alongside with the state-of-the-art in research software engineering
+with the use of continuous integration tools (Luger and Foreman-Mackey 2019) 
+or the use of containers (Xu 2020)
+that contribute with the future of reproducible research 
+%\cite{schaduangrat2020}.
+%Sustainable development of science
+%\cite{pauliuk2020}.
+%\cite{spoelstra2013}
+
+In this talk, we will introduce a proof-of-concept of 
+"open-corTeX: A framework for Continuously-integrated Open-source Reproducible TeX" 
+as an updated version of the spectrum 
+of reproducibility for formal scientific communication.
+%in the context of open-access theses.
+%and other academic documents such as cv, slides, and reports. 
+Using open-corTeX, we will present such framework with 
+the example of an open-access thesis and 
+how the state-of-the-art open-access of scientific communication 
+is adopting continuous integration (CI/CD) tools
+as well as the use of containers which are impacting reproducibility.
+%Additionally, we will show one example of the use of open-corTeX
+%with open-cortex that make use of CI/CD tools, containers and 
+%its continues releases. 
+To then conclude the talk by emphasising that the aim 
+of open-corTeX can led to scientific outcomes that are 
+aligned the principles of 
+reproducibility, inclusiveness, transparency,
+reusability  and open accessibility.
+
+\printbibliography
+\end{document}
