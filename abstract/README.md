@@ -1,14 +1,11 @@
 # Abstract
 
-
-
-## build LaTeX projet
+## Local build
+### build LaTeX projet
 ```
 make
 ```
-
-## clean LaTeX project
+### clean LaTeX project
 ```
 make clean
 ```
-
