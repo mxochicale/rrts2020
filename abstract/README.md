@@ -21,12 +21,16 @@ Where the value is taken from `id_rsa` with
 3. Create a gh-pages branch for the pdf files [(see more)](https://www.freecodecamp.org/forum/t/push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too/13222).
 ```
 git checkout -b pdf
-git push -u origin pdf
+rm -rf * ~.git
+git commit -m 'clean pdf branch'
+git push origin pdf
 ```
 
 4. Create github action workflow
 * Create `.github/workflows/main.yml`
-* Setting up variables for pdf documents and keys in main.yml
+* Setting up variables for pdf documents and keys in [main.yml](../.github/workflows/main.yml)
+* Then: do git add, commit and push origin master.
+
 
 ### (b) Local build
 #### build LaTeX projet
