@@ -181,7 +181,7 @@
 %%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \headerbox{Introduction}{name=intro,span=2,column=0,row=0}{
 Full replication of scientific communication 
-entails the release of code and data alongside with 
+entails releasing of code and data alongside with 
 its documentation \cite{peng2011, heise2020, xochicale2019-github}.
 However, there are various challenges, 
 in the current system of open scientific communication, 
@@ -194,18 +194,19 @@ and prevention of misuse and scientific misconduct \cite{heise2020}.
 That being said, the use of continuous integration tools 
 \cite{luger-foreman-mackey-2019-github}
 and containers \cite{xu2020-github}
-are a starting point to tackle few of the previous challenges.
+is a starting point to tackle few of the previous challenges.
 }
 
 
 %%% open-corTeX %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \headerbox{open-corTeX}{name=opencortex,span=2,column=0,below=intro}{
 open-corTeX is a prof-of-concept framework for open 
-scientific communication based on 
-continuous integration of LaTeX documents by Luger and Foreman-Mackey 2019 \cite{luger-foreman-mackey-2019-github} 
+scientific communication and it is based on 
+continuous integration (CI) of LaTeX documents by Luger and Foreman-Mackey 2019 \cite{luger-foreman-mackey-2019-github} 
 and Github actions running docker images of full TeXlive, a.k.a containers, by Xu 2020 \cite{xu2020-github}.
-The open-corTeX framework involves two main steps: (a) the setting up of yml file for the github action 
-and (b) Github workflow. For the latter, user usually raises an issue, creates a branch, 
+Therefore, the open-corTeX framework involves two main steps: 
+(a) the setting up of the yml file for the github action and 
+(b) Github workflow. For the latter, user usually raises an issue, creates a branch, 
 creates pull-request, asks for reviews and merges to master to then 
 generate a full reproducible PDF document \cite{xochicale2020-opencortex}.
 
@@ -265,10 +266,10 @@ Xochicale Miguel.
 
 %%% Results %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \headerbox{Results}{name=results,span=1,column=2,row=0,aligned=intro}{
-Documents outputs for article, CV, slides, poster and thesis
-using open-corTeX \cite{xochicale2020-opencortex}.
+\LaTeX-document outputs for article, thesis, CV, poster and slides with the use of
+ open-corTeX \cite{xochicale2020-opencortex}.
 
-\vspace{-0.5em}
+\vspace{-0.9em}
 \begin{center}
 \includegraphics[width=0.9\linewidth]{results/versions/drawing.png} 
 \end{center}
@@ -277,11 +278,11 @@ using open-corTeX \cite{xochicale2020-opencortex}.
 \headerbox{Takeaways}{name=takeaways,span=1,column=2,below=results, above=bottom}{
 
 $\bullet$
-Tools such as continuous integration 
-and containers can improve reproduciblity 
-due to its portability and lightweight
-to produce the same output irregardless 
-of the system \\  
+Tools such as CI and containers can improve reproduciblity 
+because of their portability and lightweight
+to produce the same output 
+without regard to the operational system.
+  
 $\bullet$ The adoption of open-corTeX might led to scientific outcomes 
 that are aligned to the principles of 
 reproducibility, inclusiveness, transparency,

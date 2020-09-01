@@ -9,7 +9,7 @@ all:	$(FIGURES_PNG)
 
 # Pattern rule for converting SVG to PNG
 versions/%.png: svgpath/%.svg
-	$(INKSCAPE) --export-png $(@) $(<)
+	$(INKSCAPE) --export-filename $(@) $(<)
 
 viewpng:
 	eog $(FIGURES_PNG)
