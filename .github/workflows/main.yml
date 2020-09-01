@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master
+      - 1-poster-submission
+
 jobs:
   build:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
@@ -18,9 +20,16 @@ jobs:
         root_file: main.tex
         working_directory: abstract
 
+    - name: Compile Poster
+      uses: xu-cheng/latex-action@v2
+      with:
+        root_file: main.tex
+        working_directory: poster
+
     - name: Check pdf files
       run: |
         file abstract/main.pdf | grep -q ' PDF '
+        file poster/main.pdf | grep -q ' PDF '
 
     - name: Upload
       run: |
@@ -35,8 +44,9 @@ jobs:
         git config --global core.sshCommand "ssh -i ~/.ssh/id_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
         git clone --depth=1 --branch pdf git@github.com:mxochicale/rrts2020.git "$GITHUB_WORKSPACE/deploy"
         cp -f abstract/main.pdf "$GITHUB_WORKSPACE/deploy/abstract.pdf"
+        cp -f poster/main.pdf "$GITHUB_WORKSPACE/deploy/poster.pdf"
         cd "$GITHUB_WORKSPACE/deploy"
-        git add abstract.pdf
+        git add abstract.pdf poster.pdf
         git commit -m "[github actions] deploy"
         git push
       env:
