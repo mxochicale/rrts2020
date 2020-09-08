@@ -1,5 +1,5 @@
 # open-corTeX: A continuous integration framework for open scientific communication
-[![GitHub Actions Status](https://github.com/mxochicale/rrts2020/workflows/Compiling-TeX/badge.svg)](https://github.com/mxochicale/rrts2020/actions) [![poster](https://img.shields.io/badge/read-the%20poster-blue.svg)](https://github.com/mxochicale/rrts2020/blob/pdf/abstract.pdf) 
+[![GitHub Actions Status](https://github.com/mxochicale/rrts2020/workflows/Compiling-TeX/badge.svg)](https://github.com/mxochicale/rrts2020/actions) [![poster](https://img.shields.io/badge/read-the%20poster-blue.svg)](https://github.com/mxochicale/rrts2020/blob/pdf/poster.pdf) 
 
 ## Abstract
 Nearly a decade ago, December 2011, Roger Peng published an spectrum of reproducibility 
