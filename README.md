@@ -1,41 +1,56 @@
-# Reproducibility, Replicability and Trust in Science (Virtual Conference)
+# open-corTeX: A continuous integration framework for open scientific communication (Poster)
+[![GitHub Actions Status](https://github.com/mxochicale/rrts2020/workflows/Compiling-TeX/badge.svg)](https://github.com/mxochicale/rrts2020/actions) ![poster](https://img.shields.io/badge/read-the%20poster-blue.svg)
 
+## Abstract
+Nearly a decade ago, December 2011, Roger Peng published an spectrum of reproducibility 
+which depicts a roadmap of a scientific outcome
+that went from publication only to full replication that includes code, data and software.
+Such spectrum was a cornerstone for 
+the publication of the first open-accessible 
+and 100\% reproducible engineering-based PhD thesis in August 2019 
+at the University of Birmingham established in 1900.
+Even thought of such achievement, there are still many challenges in the existing system 
+of formal scientific communication.
+Such challenges were recently described by Heise and Pearce 2020
+for aspects of evaluation of scientific work, 
+speed in the communication process,
+respect for the freedom of science and research,
+dissemination and accessibility, digitization,
+verifiability of scientific knowledge, quality, 
+and prevention of misuse and scientific misconduct.
+Alongside with the state-of-the-art of research software engineering
+in the context of open access science that is starting to make use 
+of continuous integration tools (Luger and Foreman-Mackey 2019) and containers (Xu 2020).
+That being said, in this talk I will introduce a proof-of-concept of 
+"open-corTeX: A framework for Continuously-integrated Open-source Reproducible TeX" 
+as an updated version of the spectrum of reproducibility for 
+formal scientific communication.
+Using open-corTeX, I will present an example of the usage of framework 
+for the case of an open-access thesis 
+as well as other academic documents such as cv, slides, and reports. 
+Similarly, I will show how the state-of-the-art of open-access in scientific 
+communication is adopting continuous integration (CI/CD) tools
+as well as the use of containers.
+To then conclude the talk by emphasising 
+the adoption of open-corTeX might led to scientific outcomes 
+that are aligned the principles of 
+reproducibility, inclusiveness, transparency,
+reusability  and open accessibility.
+
+## Poster and video for lightning talk
+[![poster](poster/figures/final-version/poster.png)](https://www.youtube.com/watch?v=KHDezS4LfZ0)
+**NB** Click on the poster to watch a 2 minutes presentation
+
+## Extras
+* Video: https://www.youtube.com/watch?v=KHDezS4LfZ0
+* Poster: https://github.com/mxochicale/rrts2020/blob/pdf/poster.pdf
+* Abstract: https://github.com/mxochicale/rrts2020/blob/pdf/abstract.pdf 
+* PDFS: https://github.com/mxochicale/rrts2020/tree/pdf
+* Github: repository https://github.com/mxochicale/rrts2020
+
+# Virtual Conference: Reproducibility, Replicability and Trust in Science 
 ## Details
-09 - 11 September 2020 Wellcome Genome Campus, UK
-https://coursesandconferences.wellcomegenomecampus.org/our-events/reproducibility-replicability-trust-in-science-2020/
+This new meeting will bring together an international audience of researchers motivated to improve the robustness of scientific research. It will also involve important stakeholder groups: data and services providers, publishers, institutions and funders that are developing policies and tools. The conference will start at 12.30 on 9 September and finish at ~2pm on 11 September 2020.
+[PROGRAM](/docs/program/program.pdf), [SITE](https://coursesandconferences.wellcomegenomecampus.org/our-events/reproducibility-replicability-trust-in-science-2020/) and [MUCH MORE](docs/README.md).
 
-## Summary 
-Summary
-
-Owing to the ongoing situation with covid-19, this event will be organised as a virtual conference.
-
-This new meeting will bring together an international audience of researchers motivated to improve the robustness of scientific research. It will also involve important stakeholder groups: data and services providers, publishers, institutions and funders that are developing policies and tools.
-
-The overarching theme of this conference is to position the challenge of reproducibility and replicability as a behaviour-change problem that when addressed can lead to culture change within research. The programme will explore how the right incentives can drive positive behaviour, with examples presented from a variety of groups and organisations. We will also focus on the development and implementation of open science tools, which can help researchers produce transparent, trustworthy and therefore potentially better-quality scientific outputs.
-
-The meeting will also stimulate collaboration on practical measures that can improve the quality of scientific enquiry and reporting. We will focus on the evidence base for such measures and tools, and discuss their effectiveness and impact.
-
-The programme will focus on the following areas:
-
-    Infrastructure and tools that make behaviour change possible or easier, led, for example, by service providers of open data infrastructure or publishing mechanisms
-    Normative changes, for example, led by peer-led/grassroots groups who are trying to establish new norms in their communities
-    Incentives and research assessment, for example, led by funders, research institutions, and publishing platforms/journals
-    Policies, for example, set by funders, research institutions, journals and research infrastructures
-
-The format will include presentations from international leaders with ample time for discussion. Abstracts on all areas of the conference are welcome for poster or oral presentations. The final day of the conference will include a series of online workshop sessions and peer-led group discussions. The participation of early career researchers will be a will be a strong and prominent thread throughout the conference.
-
-## Programme
-The conference will start at 12.30 on 9 September and finish at ~2pm on 11 September 2020.
-Topics will include:
-* Incentives
-* Infrastructure and tools
-* Improving research culture
-* Policy initiatives
-* Improving research quality
-* There will be a series of break-out sessions on the final day of the conference.
-
-## Important Dates
-Deadlines (at 23:59 UTC):
-* Abstract deadline: 04 August 2020
-* Registration deadline: 02 September 2020
 
