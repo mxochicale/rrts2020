@@ -1,5 +1,5 @@
-# open-corTeX: A continuous integration framework for open scientific communication (Poster)
-[![GitHub Actions Status](https://github.com/mxochicale/rrts2020/workflows/Compiling-TeX/badge.svg)](https://github.com/mxochicale/rrts2020/actions) ![poster](https://img.shields.io/badge/read-the%20poster-blue.svg)
+# open-corTeX: A continuous integration framework for open scientific communication
+[![GitHub Actions Status](https://github.com/mxochicale/rrts2020/workflows/Compiling-TeX/badge.svg)](https://github.com/mxochicale/rrts2020/actions) [![poster](https://img.shields.io/badge/read-the%20poster-blue.svg)](https://github.com/mxochicale/rrts2020/blob/pdf/abstract.pdf) 
 
 ## Abstract
 Nearly a decade ago, December 2011, Roger Peng published an spectrum of reproducibility 
@@ -37,20 +37,18 @@ that are aligned the principles of
 reproducibility, inclusiveness, transparency,
 reusability  and open accessibility.
 
-## Poster and video for lightning talk
+## Poster and video 
+Click on the poster to watch a 2 minutes presentation  
 [![poster](poster/figures/final-version/poster.png)](https://www.youtube.com/watch?v=KHDezS4LfZ0)
-**NB** Click on the poster to watch a 2 minutes presentation
 
 ## Extras
-* Video: https://www.youtube.com/watch?v=KHDezS4LfZ0
-* Poster: https://github.com/mxochicale/rrts2020/blob/pdf/poster.pdf
-* Abstract: https://github.com/mxochicale/rrts2020/blob/pdf/abstract.pdf 
+* Setting up of :octocat: action for abstract: https://github.com/mxochicale/rrts2020/tree/master/abstract
+* Setting up of :octocat: action for poster: https://github.com/mxochicale/rrts2020/tree/master/poster
 * PDFS: https://github.com/mxochicale/rrts2020/tree/pdf
-* Github: repository https://github.com/mxochicale/rrts2020
+* :octocat: repository: https://github.com/mxochicale/rrts2020
 
-# Virtual Conference: Reproducibility, Replicability and Trust in Science 
+# Reproducibility, Replicability and Trust in Science (Virtual Conference)
 ## Details
 This new meeting will bring together an international audience of researchers motivated to improve the robustness of scientific research. It will also involve important stakeholder groups: data and services providers, publishers, institutions and funders that are developing policies and tools. The conference will start at 12.30 on 9 September and finish at ~2pm on 11 September 2020.
-[PROGRAM](/docs/program/program.pdf), [SITE](https://coursesandconferences.wellcomegenomecampus.org/our-events/reproducibility-replicability-trust-in-science-2020/) and [MUCH MORE](docs/README.md).
-
+[program](/docs/program/program.pdf), [README](docs/README.md) and much more in the [website](https://coursesandconferences.wellcomegenomecampus.org/our-events/reproducibility-replicability-trust-in-science-2020/).
 
