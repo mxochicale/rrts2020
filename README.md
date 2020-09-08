@@ -52,11 +52,25 @@ Click on the poster to watch a 2 minutes presentation
 This new meeting will bring together an international audience of researchers motivated to improve the robustness of scientific research. It will also involve important stakeholder groups: data and services providers, publishers, institutions and funders that are developing policies and tools. The conference will start at 12.30 on 9 September and finish at ~2pm on 11 September 2020.
 [program](/docs/program/program.pdf), [README](docs/README.md) and much more in the [website](https://coursesandconferences.wellcomegenomecampus.org/our-events/reproducibility-replicability-trust-in-science-2020/).
 
-# Licence
+# Licence and Citation 
 The work of this poster is under Creative Commons Attribution-Share Alike license [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/). Hence, you are free to reuse it and modify it as much as you want
 and as long as you cite [this poster](https://github.com/mxochicale/rrts2020/issues) 
 as original reference and you re-share your work under the same terms.
 
+## Cite as 
+> Xochicale, Miguel (2020): open-corTeX: A continuous integration framework for open scientific communication. figshare. Poster. https://doi.org/10.6084/m9.figshare.12927701.v1
+
+## BibTeX to cite
+```
+@article{Xochicale2020,
+author = "Miguel Xochicale",
+title = "{open-corTeX: A continuous integration framework for open scientific communication}",
+year = "2020",
+month = "9",
+url = "https://figshare.com/articles/poster/open-corTeX_A_continuous_integration_framework_for_open_scientific_communication/12927701",
+doi = "10.6084/m9.figshare.12927701.v1"
+}
+```
 # Contact 
 If you have specific questions about the content of this repository, you can contact 
 [Miguel Xochicale](mailto:perez.xochicale@gmail.com?subject="[open-cortex]"). 
