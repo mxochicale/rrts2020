@@ -1,6 +1,6 @@
 # Poster
 
-## Building tex abstract with:
+## Building tex poster with:
 
 ### (a) Github Actions
 #### Setting it up
